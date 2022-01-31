@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SeuNomeNaTelaController">
+   <children>
+      <Label layoutX="64.0" layoutY="36.0" prefHeight="48.0" prefWidth="554.0" text="NOME: ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="recebeTexto" layoutX="64.0" layoutY="84.0" onKeyTyped="#txtMoveToBtn" prefHeight="30.0" prefWidth="550.0" promptText="Digite aqui o seu nome e aperte o botão abaixo.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button layoutX="212.0" layoutY="174.0" mnemonicParsing="false" onAction="#on_btn_clicked" prefHeight="69.0" prefWidth="258.0" text="Click aqui!!!">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="informaTexto" layoutX="64.0" layoutY="314.0" prefHeight="48.0" prefWidth="554.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
